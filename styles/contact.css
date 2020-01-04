@@ -161,3 +161,29 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
+
+@media screen and (max-width:600px) {
+
+	nav a {
+		font-size: 16px;
+		}
+	header {
+		height: 150px;
+		width:375px;
+	}
+	body {
+		max-width: max-content;
+	}
+	h1 {
+		position: relative;
+		text-align: center;
+		font-size: 25px;
+	}
+	
+	.navigation {
+		transform: scale(.8);
+		position: relative;
+		left: 8vh;
+		text-align: center;
+	  }
+	}

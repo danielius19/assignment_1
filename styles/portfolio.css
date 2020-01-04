@@ -147,18 +147,36 @@ hr {
 /*Adjusts page for smaller screen*/
 @media (max-width: 600px) {
     nav a {
-        font-size: 1px;
+        font-size: 16px;
+    }
+
+    header {
+        height: 150px;
+        width: 400px;
+        position: relative;
+        bottom: 15vh;
+    }
+    body {
+        max-width: min-content;
+    }
+    h1 {
+        position: relative;
+        text-align: center;
+        font-size: 25px;
     }
 
     .navigation
     {
-        transform: scale(.5);
-        position: fixed;
-        top: -7vh;
+        transform: scale(.8);
+        position: relative;
+        left: 10vh;
         text-align: center;
     }
     
     .gallery-item, body {
+        position: relative;
+        bottom: -15vh;
+        left: -1vh;
         max-width: 30%;
         grid-column: 2;
         font-family: 'Open Sans', sans-serif;

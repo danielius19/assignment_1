@@ -182,52 +182,30 @@ div#resume img {
     margin-top: 2px
   }
 }
-
-@media screen and (max-width:550px) {
-  body {
-    margin: 1rem
-  }
-  div#resume img {
-    transform: rotate(0deg)
-  }
+@media screen and (max-width:600px) {
+  nav a {
+    font-size: 16px;
+}
+header {
+    height: 150px;
+    width:375px;
+}
+body {
+    max-width: min-content;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
 }
 
-@media screen and (max-width:400px) {
-  div#resume dl dt {
-    border-right: none;
-    border-bottom: 1px solid #999
-  }
-  div#resume dl,
-  div#resume dl dd,
-  div#resume dl dt {
-    display: block;
-    padding-left: 0;
-    margin-left: 0;
-    padding-bottom: 0;
-    text-align: left;
-    width: 100%
-  }
-  div#resume dl dd {
-    margin-top: 6px
-  }
-  div#resume h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px
-  }
-  div#resume dt {
-    font-size: 20px
-  }
-  h1 {
-    font-size: 36px;
-    margin-right: 0;
-    line-height: 0
-  }
-  div#resume img {
-    margin: 0
+.navigation {
+    transform: scale(.8);
+    position: relative;
+    left: 8vh;
+    text-align: center;
   }
 }
-
 @media screen and (max-width:320px) {
   body {
     margin: 0

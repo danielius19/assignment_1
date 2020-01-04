@@ -206,19 +206,23 @@ i{
 @media (max-width: 600px) {
     nav a {
         font-size: 16px;
-      }
+    }
 
     .top {
         grid-template-columns: 1fr;
         grid-template-areas: "text"
     }
-
+    header {
+        position: fixed;
+        left: -15vh;
+        top: 0px;
+        height:150px;
+    }
     .navigation
     {
         transform: scale(.8);
-        position: fixed;
-        left: 15vh;
-        top: -4vh;
+        position: relative;
+        left: 18vh;
         text-align: center;
     }
 
@@ -245,5 +249,7 @@ i{
         left: 15vh;
         border-radius: 100%;
     }
-
+    body {
+        max-width: min-content;
+    }
 }
