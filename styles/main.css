@@ -222,7 +222,7 @@ i{
     {
         transform: scale(.8);
         position: relative;
-        left: 18vh;
+        left: 20vh;
         text-align: center;
     }
 
@@ -245,11 +245,9 @@ i{
         max-width: 131px;
         max-height: 131px;
         position: fixed;
-        top: 17vh;
-        left: 15vh;
+        top: 20vh;
+        left: 18vh;
         border-radius: 100%;
     }
-    body {
-        max-width: min-content;
-    }
+   
 }

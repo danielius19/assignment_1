@@ -202,8 +202,9 @@ h1 {
 .navigation {
     transform: scale(.8);
     position: relative;
-    left: 8vh;
+    left: 19vh;
     text-align: center;
+    width: 100px;
   }
 }
 @media screen and (max-width:320px) {
